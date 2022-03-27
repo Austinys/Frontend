@@ -1,0 +1,12 @@
+<div class="detailsList">
+
+<div *ngIf="expense">
+    <h3>Expense details</h3>
+    <h4>{{expense.name}}</h4>
+    <p>id: {{expense.id}}</p>
+    <p>amount: {{expense.amount}}</p>
+    <p *ngIf="expense.description"> Description: {{expense.description}}</p>
+  </div>
+</div>
+
+

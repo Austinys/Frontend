@@ -1,0 +1,13 @@
+.expense {
+    background: #f4f4f4;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  
+  .expense h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: darkgreen;
+    margin: 20px
+  }

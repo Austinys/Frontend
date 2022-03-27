@@ -1,0 +1,11 @@
+<div class="expense">
+
+<h2>Expenses:</h2>
+<div *ngFor="let expense of expenses">
+  <a [routerLink]="['/expenses', expense.id]">
+ <app-expense-overview [expense]="expense"></app-expense-overview>
+</a>
+</div>
+</div>
+
+    
